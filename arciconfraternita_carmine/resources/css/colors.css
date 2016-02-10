@@ -1,0 +1,63 @@
+/*
+Gestione dei colori degli elementi della pagina
+*/
+
+/* Testo base */
+body
+{
+	color: #333333;
+}
+
+/* Barra di navigazione */
+.navbar
+{
+	background-color: #EEEEEE;
+}
+
+/* Barra di navigazione - ABILITATO - */
+.navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus
+{
+	background-color: #D5D5D5;
+	color: #555555;
+}
+
+/* Barra di navigazione testo non abilitato */
+.navbar-nav > li > a
+{
+	color: #777777;
+}
+
+/* Menu laterale - ABILITATO - */
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus
+{
+	background-color: #428BCA;
+	color: #FFFFFF;
+}
+
+/* Link */
+a
+{
+	color: #428BCA;
+}
+
+/* Testo nelle liste */
+a.list-group-item .list-group-item-heading
+{
+	color: #333333;
+}
+
+/* Elemento della lista */
+.list-group-item
+{
+	background-color: #FFFFFF;
+	border-color: #DDDDDD;
+}
+
+/* Titolo della pagina */
+legend
+{
+	color: #333333;
+	border-color: #E5E5E5;
+}
+
+/* colors.css */

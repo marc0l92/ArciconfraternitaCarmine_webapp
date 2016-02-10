@@ -1,0 +1,246 @@
+/*Regole CSS personali che sovrascrivono Bootstrap*/
+#container
+{
+	margin: 5px;
+}
+
+.nav-pills
+{
+	background: rgba(255, 255, 255, 0.7);
+	border-radius: 10px;
+}
+
+#page_content
+{
+	background: rgba(255, 255, 255, 0.7);
+	border-radius: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+body
+{
+	margin: 5px;
+	background: url("./../images/background5b.png");
+}
+
+#footer
+{
+	border-top: solid 1px #000;
+	margin: 0px;
+	padding-top: 10px;
+}
+
+.no-margin
+{
+	margin: 0px;
+}
+
+.navbar-brand
+{
+	max-width: 400px;
+}
+
+.nav-pills-sub
+{
+	margin-left: 20px;
+	font-size: 12px;
+}
+
+.submenu > li > a
+{
+	padding: 5px 10px;
+	color: #003B7A;
+	border-radius: 4px;
+}
+
+.linea
+{
+	border-top: 1px #E5E5E5 solid;
+	margin: 0px 5px;
+}
+
+.space
+{
+	margin: 15px 0px;
+}
+
+.space-left
+{
+	margin-left: 10px;
+}
+
+.fixed-alert
+{
+	position: fixed;
+	top: 10px;
+	z-index: 2000;
+	width: 100%;
+}
+
+.table 
+{
+	margin-bottom: 0;
+}
+
+.table-hover>tbody>tr:hover>td
+{
+	background: rgba(51, 153, 204, 0.1);
+	border-top: 1px solid rgb(51, 153, 204);
+	border-bottom: 1px solid rgb(51, 153, 204);
+}
+
+.text-center
+{
+	text-align: center;
+}
+
+.no-background
+{
+	background-color: #FDD;
+	border: solid 1px #CCC;
+}
+
+.forse-background
+{
+	background-color: #FFB;
+}
+
+.si-background
+{
+	background-color: #DFD;
+	border: solid 1px #CCC;
+}
+
+.pull-right
+{
+	margin-left: 20px;
+}
+
+/* autocomplete */
+
+.tt-hint
+{
+	margin: 6px 0 0 11px;
+	width: 100%;
+}
+
+.twitter-typeahead
+{
+	width: 100%;
+}
+
+.tt-dropdown-menu
+{
+	width: 100%;
+}
+
+/* breadcrumb */
+
+.breadcrumb
+{
+	margin-top: 10px;
+	margin-bottom: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.breadcrumb > li + li:before
+{
+	content:"> ";
+}
+
+/* modal */
+
+.modal-dialog
+{
+	width: 70%;
+	min-width: 700px;
+}
+
+.second-row
+{
+	margin-top: 25px;
+}
+
+.modal-body
+{
+	padding: 20px 20px 0;
+}
+
+.well-small
+{
+	padding: 5px;
+	margin-bottom: 0;
+}
+
+img
+{
+	margin-right: 5px;
+}
+
+.disabled
+{
+	color: #999999;
+	background-color: #EEEEEE;
+}
+
+.disabled:hover
+{
+	color: #999999;
+	background-color: #EEEEEE;
+	text-decoration: none;
+}
+
+.svuota
+{
+	position: absolute;
+	right: 70px;
+	top: 7px;
+}
+
+@media print
+{
+	h4
+	{
+		border-bottom: 1px solid #777;
+	}
+}
+
+.icon-blue
+{
+	background-image: url("jQuery-theme/images/ui-icons_2e83ff_256x240.png");
+}
+
+.ui-icon
+{
+	margin-right: 2px;
+}
+
+.btn-scroll
+{
+	position: fixed;
+	top: 50px;
+	right: -50px;
+}
+
+.required
+{
+	border-color: #f66;
+	border-width: 3px;
+}
+
+.radio
+{
+	margin-top: 0;
+}
+
+.dot-list:before
+{
+	display: block;
+	float: left;
+	margin-right: 5px;
+	content: "•";
+}
