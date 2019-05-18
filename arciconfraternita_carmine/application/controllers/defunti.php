@@ -40,7 +40,7 @@ class Defunti extends MY_Controller {
 				$result['celletta_description0'] = $result['celletta_description']; 
 			}
 			// dati responsabile
-			$result['id_persona0'] = $result['id_responsabile'];
+			$result['id-persona0'] = $result['id_responsabile'];
 			if($result['id_responsabile'] == 0){
 				$result["responsabile_description"] = '';
 			}else{
